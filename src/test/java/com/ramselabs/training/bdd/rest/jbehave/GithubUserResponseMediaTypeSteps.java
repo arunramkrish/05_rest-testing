@@ -1,4 +1,4 @@
-package com.baeldung.rest.jbehave;
+package com.ramselabs.training.bdd.rest.jbehave;
 
 import org.apache.http.entity.ContentType;
 import org.jbehave.core.annotations.Given;
@@ -7,7 +7,7 @@ import org.jbehave.core.annotations.When;
 
 import java.io.IOException;
 
-import static com.baeldung.rest.jbehave.GithubUserNotFoundSteps.getGithubUserProfile;
+import static com.ramselabs.training.bdd.rest.jbehave.GithubUserNotFoundSteps.getGithubUserProfile;
 import static org.junit.Assert.assertEquals;
 
 public class GithubUserResponseMediaTypeSteps {

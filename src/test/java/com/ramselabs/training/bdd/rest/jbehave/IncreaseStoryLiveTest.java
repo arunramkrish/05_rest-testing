@@ -1,4 +1,4 @@
-package com.baeldung.rest.jbehave;
+package com.ramselabs.training.bdd.rest.jbehave;
 
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
@@ -14,12 +14,7 @@ import java.util.List;
 import static org.jbehave.core.io.CodeLocations.codeLocationFromClass;
 import static org.jbehave.core.reporters.Format.CONSOLE;
 
-/**
- * @author aiet
- */
-public abstract class AbstractStory extends JUnitStories {
-
-    abstract String storyName();
+public class IncreaseStoryLiveTest extends JUnitStories {
 
     @Override
     public Configuration configuration() {
@@ -30,16 +25,14 @@ public abstract class AbstractStory extends JUnitStories {
             .withFormats(CONSOLE));
     }
 
-    abstract Object stepInstance();
-
     @Override
     public InjectableStepsFactory stepsFactory() {
-        return new InstanceStepsFactory(configuration(), stepInstance());
+        return new InstanceStepsFactory(configuration(), new IncreaseSteps());
     }
 
     @Override
     protected List<String> storyPaths() {
-        return Arrays.asList(storyName());
+        return Arrays.asList("increase.story");
     }
 
 }

@@ -1,4 +1,4 @@
-package com.baeldung.rest.karate;
+package com.ramselabs.training.bdd.rest.karate;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration;

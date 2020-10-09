@@ -1,4 +1,4 @@
-package com.baeldung.rest.jbehave;
+package com.ramselabs.training.bdd.rest.jbehave;
 
 import org.apache.http.HttpResponse;
 import org.hamcrest.Matchers;
@@ -8,7 +8,7 @@ import org.jbehave.core.annotations.When;
 
 import java.io.IOException;
 
-import static com.baeldung.rest.jbehave.GithubUserNotFoundSteps.getGithubUserProfile;
+import static com.ramselabs.training.bdd.rest.jbehave.GithubUserNotFoundSteps.getGithubUserProfile;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GithubUserResponsePayloadSteps {

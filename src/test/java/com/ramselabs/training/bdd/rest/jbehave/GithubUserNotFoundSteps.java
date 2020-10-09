@@ -1,4 +1,4 @@
-package com.baeldung.rest.jbehave;
+package com.ramselabs.training.bdd.rest.jbehave;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;

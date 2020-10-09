@@ -1,4 +1,4 @@
-package com.baeldung.rest.wiremock.introduction;
+package com.ramselabs.training.bdd.rest.wiremock.introduction;
 
 import com.github.tomakehurst.wiremock.WireMockServer;
 import org.apache.http.HttpResponse;

@@ -1,4 +1,4 @@
-package com.baeldung.rest.cucumber;
+package com.ramselabs.training.bdd.rest.cucumber;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;

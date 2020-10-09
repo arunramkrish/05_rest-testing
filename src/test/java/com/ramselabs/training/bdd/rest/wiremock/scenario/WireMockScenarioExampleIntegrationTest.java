@@ -1,4 +1,4 @@
-package com.baeldung.rest.wiremock.scenario;
+package com.ramselabs.training.bdd.rest.wiremock.scenario;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.aResponse;
 import static com.github.tomakehurst.wiremock.client.WireMock.get;
